@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template, request
 import pandas as pd
 import numpy as np
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 
 # configure 
 
